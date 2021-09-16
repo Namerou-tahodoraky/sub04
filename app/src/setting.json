@@ -1,0 +1,99 @@
+{
+  "Info": {
+    "ModelName" : "VOC0712",
+    "Version" : "1.0",
+    "Description": "RefineDet公式のVOCモデル",
+    "DetectionType": "ObjectDetection"
+  },
+  "WeightPath": "/RefineDet/models/VOC0712_refinedet_vgg16_320x320_final.caffemodel",
+  "Classes" :[
+    {
+      "ClassName": "1",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "2",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "3",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "4",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "5",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "6",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "7",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "8",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "9",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "10",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "11",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "12",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "13",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "14",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "15",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "16",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "17",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "18",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "19",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "20",
+      "ConfidenceThresh": 0.6
+    },
+    {
+      "ClassName": "21",
+      "ConfidenceThresh": 0.6
+    }
+  ],
+  "UniqueSettings": {
+    "NetworkDefineFile": "/RefineDet/models/deploy.prototxt",
+    "InputImageSize": 320
+  }
+}

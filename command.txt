@@ -1,0 +1,4 @@
+docker build -t flask-dev . --cache-from=flask-dev:build-stage
+docker run --rm -v /home/kazu-0918/flask/app:/app --name flask_test -p 8000:80 flask-dev:latest
+curl http://localhost:8000
+docker build --target build-stage -t flask-dev:build-stage .

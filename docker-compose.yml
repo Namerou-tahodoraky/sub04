@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  flask:
+    image: flask-dev:latest
+    volumes:
+      - ./app:/app
+  client:
+    image: python:3.9-buster
+    tty: true
+    command: /bin/bash
